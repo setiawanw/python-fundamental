@@ -6,7 +6,10 @@ print('Ibu berkata "baca semua bukumu')
 
 jumlah_buku_yang_sudah_dibaca_dan_dipahami = 0
 print(f'Jumlah buku yang sudah dibaca dan dipahami {jumlah_buku_yang_sudah_dibaca_dan_dipahami}')
-
+# dibawah ini penting
+total_jumlah_baca = 0
+print(f'total jumlah baca {total_jumlah_baca}')
+# diatas ini penting
 while total_jumlah_baca < jumlah_buku * 2:
     total_jumlah_baca = total_jumlah_baca + 1
     if jumlah_buku_yang_sudah_dibaca_dan_dipahami == 9:
