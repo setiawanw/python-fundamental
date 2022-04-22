@@ -92,4 +92,5 @@ for i in range(0, len(daftar_buku)):
 print('\nPerintah del dengan list comprehension start:stop')
 daftar_buku = ['Seven Habit', 'How to Influence People', 'First Things First', '40X']
 del daftar_buku[0::2] #yang dihapus bisa di jeda2 -- slicing datafor i in range(0, len(daftar_buku)):
+for i in range(0, len(daftar_buku)):
     print(daftar_buku[i])
